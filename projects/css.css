@@ -1,0 +1,146 @@
+main.main-container {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 1200px;
+    min-width: 890px;
+    max-width: 1920px;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+    
+/*    
+    background-image: url('img/dask.png');
+    background-position: calc(100% - 30px) 100%;
+    background-repeat: no-repeat;
+    background-size: 500px 333px;
+*/
+
+.main-box {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    padding-top: 20%;
+    background-image: url('/img/licon.png');
+    background-position: 0% calc(100% - 18pt);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+h1 {
+    color: rgb(51,51,51);
+    font-weight: 300;
+    font-size: 20pt;
+    letter-spacing: -0.5pt;
+    margin-left: 25pt;
+}
+.title p {
+    margin-top: -14pt;
+    font-size:10pt;
+    font-weight: 200;
+    color:#999;
+}
+
+
+.content {
+}
+.content-box {
+    transition: padding 0.15s cubic-bezier(0.4, 0, 0.2, 1), margin 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+    position: relative;
+    transition-timing-function: ease-in-out;
+}
+
+.content-box:hover {
+    padding: 6px 10px;
+    margin: -6px -10px;
+    box-shadow: 0 49.5px 70px -24.5px rgba(0, 0, 0, 0.3);
+    z-index:999
+}
+
+.separate {
+    height:10pt;
+}
+#first-content-box {
+    background-color: #333;
+    height: 200pt;
+    z-index:5
+}
+
+#first-content-box h2 {
+    color:white;
+    font-weight: 300;
+    font-size: 15pt;
+
+}
+
+#first-content-box p {
+    color: rgb(230,230,230);
+
+}
+
+
+#first-content-box a{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#cad-box{
+    margin-top:18pt;
+    margin-left:20pt;
+}
+#cad-box p{
+    margin-top:-11pt
+}
+
+
+#last-content-box {
+    background-color: rgb(240,240,240);
+    height: 60pt;
+    z-index:4
+}
+
+#last-content-box:hover {
+    padding: 0px 3px;
+    margin: -1px -3px;
+    box-shadow: 0 49.5px 70px -24.5px rgba(0, 0, 0, 0.1);
+/*    z-index:999*/
+}
+
+#last-content-box h2 {
+    color: rgb(119,119,119);
+    font-weight: 300;
+    font-size: 15pt;
+    text-align:right;
+}
+
+#last-content-box p {
+    color: rgb(158,158,158);
+    text-align: right;
+}
+
+#last-content-box a{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#legacy-box{
+    margin-top:-1pt;
+    margin-left:20pt;
+    margin-right:20pt;
+}
+
+#legacy-box p{
+    margin-top:-11pt
+}
